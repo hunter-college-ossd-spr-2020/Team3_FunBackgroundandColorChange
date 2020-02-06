@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "AnimalsAndColors",
+  "version": "1.0",
+
+  "description": "Displays background onto any webpage of an 8-bit cat picture, along with a color border.",
+  "icons": {
+    "48": "icons/heart-7.png"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/animal-element-7.png",
+    "default_title": "8-Bit Cat Background and Fun Border Color",
+    "default_popup": "popup/choose_animal.html"
+  }
+}
